@@ -6,7 +6,7 @@ similar to Apple's [SKTextureAtlas](https://developer.apple.com/library/ios/docu
 
 Additionaly you can init *MyTextureAtlas* using the *initWithFile* passing the argument to the packaged *plist* file.
 Be forewarned that atlasc format is internal and may subject to change in between iOS releases. Use the defacto SDK's
-implementation whenever possible unless you came up with some weird requirements like in my case.
+implementation whenever possible unless you came up with some weird requirements like in my case. At present this project has been checked against iOS7.
 
 The Xcode's project contains an animation example based on the art assets produced by TexturePacker as in the following link: -
 
