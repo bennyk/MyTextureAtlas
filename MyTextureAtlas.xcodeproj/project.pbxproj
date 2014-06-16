@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AA9022194E9271000A2C5C /* sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 19AA9021194E9271000A2C5C /* sprites.atlasc */; };
+		19AC1471194D30F7000D5174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1470194D30F7000D5174 /* Foundation.framework */; };
+		19AC1473194D30F7000D5174 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1472194D30F7000D5174 /* CoreGraphics.framework */; };
+		19AC1475194D30F7000D5174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1474194D30F7000D5174 /* UIKit.framework */; };
+		19AC1477194D30F7000D5174 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1476194D30F7000D5174 /* SpriteKit.framework */; };
+		19AC147D194D30F7000D5174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19AC147B194D30F7000D5174 /* InfoPlist.strings */; };
+		19AC147F194D30F7000D5174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC147E194D30F7000D5174 /* main.m */; };
+		19AC1483194D30F7000D5174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC1482194D30F7000D5174 /* AppDelegate.m */; };
+		19AC1486194D30F7000D5174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AC1484194D30F7000D5174 /* Main.storyboard */; };
+		19AC1489194D30F7000D5174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC1488194D30F7000D5174 /* ViewController.m */; };
+		19AC148C194D30F7000D5174 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC148B194D30F7000D5174 /* MyScene.m */; };
+		19AC148E194D30F7000D5174 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AC148D194D30F7000D5174 /* Spaceship.png */; };
+		19AC1490194D30F7000D5174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AC148F194D30F7000D5174 /* Images.xcassets */; };
+		19AC1497194D30F7000D5174 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1496194D30F7000D5174 /* XCTest.framework */; };
+		19AC1498194D30F7000D5174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1470194D30F7000D5174 /* Foundation.framework */; };
+		19AC1499194D30F7000D5174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AC1474194D30F7000D5174 /* UIKit.framework */; };
+		19AC14A1194D30F7000D5174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19AC149F194D30F7000D5174 /* InfoPlist.strings */; };
+		19AC14A3194D30F7000D5174 /* MyTextureAtlasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC14A2194D30F7000D5174 /* MyTextureAtlasTests.m */; };
+		19AC14B4194D376B000D5174 /* MyTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC14B3194D376B000D5174 /* MyTextureAtlas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19AC149A194D30F7000D5174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19AC1465194D30F7000D5174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AC146C194D30F7000D5174;
+			remoteInfo = MyTextureAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AA9021194E9271000A2C5C /* sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sprites.atlasc; sourceTree = "<group>"; };
+		19AC146D194D30F7000D5174 /* MyTextureAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTextureAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AC1470194D30F7000D5174 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19AC1472194D30F7000D5174 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19AC1474194D30F7000D5174 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19AC1476194D30F7000D5174 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		19AC147A194D30F7000D5174 /* MyTextureAtlas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTextureAtlas-Info.plist"; sourceTree = "<group>"; };
+		19AC147C194D30F7000D5174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19AC147E194D30F7000D5174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19AC1480194D30F7000D5174 /* MyTextureAtlas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTextureAtlas-Prefix.pch"; sourceTree = "<group>"; };
+		19AC1481194D30F7000D5174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19AC1482194D30F7000D5174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19AC1485194D30F7000D5174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19AC1487194D30F7000D5174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19AC1488194D30F7000D5174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19AC148A194D30F7000D5174 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		19AC148B194D30F7000D5174 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		19AC148D194D30F7000D5174 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		19AC148F194D30F7000D5174 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19AC1495194D30F7000D5174 /* MyTextureAtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTextureAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AC1496194D30F7000D5174 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19AC149E194D30F7000D5174 /* MyTextureAtlasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTextureAtlasTests-Info.plist"; sourceTree = "<group>"; };
+		19AC14A0194D30F7000D5174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19AC14A2194D30F7000D5174 /* MyTextureAtlasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextureAtlasTests.m; sourceTree = "<group>"; };
+		19AC14B2194D376B000D5174 /* MyTextureAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextureAtlas.h; sourceTree = "<group>"; };
+		19AC14B3194D376B000D5174 /* MyTextureAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextureAtlas.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19AC146A194D30F7000D5174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC1473194D30F7000D5174 /* CoreGraphics.framework in Frameworks */,
+				19AC1475194D30F7000D5174 /* UIKit.framework in Frameworks */,
+				19AC1477194D30F7000D5174 /* SpriteKit.framework in Frameworks */,
+				19AC1471194D30F7000D5174 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AC1492194D30F7000D5174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC1497194D30F7000D5174 /* XCTest.framework in Frameworks */,
+				19AC1499194D30F7000D5174 /* UIKit.framework in Frameworks */,
+				19AC1498194D30F7000D5174 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AC1464194D30F7000D5174 = {
+			isa = PBXGroup;
+			children = (
+				19AA9021194E9271000A2C5C /* sprites.atlasc */,
+				19AC1478194D30F7000D5174 /* MyTextureAtlas */,
+				19AC149C194D30F7000D5174 /* MyTextureAtlasTests */,
+				19AC146F194D30F7000D5174 /* Frameworks */,
+				19AC146E194D30F7000D5174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19AC146E194D30F7000D5174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19AC146D194D30F7000D5174 /* MyTextureAtlas.app */,
+				19AC1495194D30F7000D5174 /* MyTextureAtlasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AC146F194D30F7000D5174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AC1470194D30F7000D5174 /* Foundation.framework */,
+				19AC1472194D30F7000D5174 /* CoreGraphics.framework */,
+				19AC1474194D30F7000D5174 /* UIKit.framework */,
+				19AC1476194D30F7000D5174 /* SpriteKit.framework */,
+				19AC1496194D30F7000D5174 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19AC1478194D30F7000D5174 /* MyTextureAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				19AC1481194D30F7000D5174 /* AppDelegate.h */,
+				19AC1482194D30F7000D5174 /* AppDelegate.m */,
+				19AC1484194D30F7000D5174 /* Main.storyboard */,
+				19AC1487194D30F7000D5174 /* ViewController.h */,
+				19AC1488194D30F7000D5174 /* ViewController.m */,
+				19AC148A194D30F7000D5174 /* MyScene.h */,
+				19AC148B194D30F7000D5174 /* MyScene.m */,
+				19AC148D194D30F7000D5174 /* Spaceship.png */,
+				19AC148F194D30F7000D5174 /* Images.xcassets */,
+				19AC1479194D30F7000D5174 /* Supporting Files */,
+				19AC14B2194D376B000D5174 /* MyTextureAtlas.h */,
+				19AC14B3194D376B000D5174 /* MyTextureAtlas.m */,
+			);
+			path = MyTextureAtlas;
+			sourceTree = "<group>";
+		};
+		19AC1479194D30F7000D5174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19AC147A194D30F7000D5174 /* MyTextureAtlas-Info.plist */,
+				19AC147B194D30F7000D5174 /* InfoPlist.strings */,
+				19AC147E194D30F7000D5174 /* main.m */,
+				19AC1480194D30F7000D5174 /* MyTextureAtlas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19AC149C194D30F7000D5174 /* MyTextureAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				19AC14A2194D30F7000D5174 /* MyTextureAtlasTests.m */,
+				19AC149D194D30F7000D5174 /* Supporting Files */,
+			);
+			path = MyTextureAtlasTests;
+			sourceTree = "<group>";
+		};
+		19AC149D194D30F7000D5174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19AC149E194D30F7000D5174 /* MyTextureAtlasTests-Info.plist */,
+				19AC149F194D30F7000D5174 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19AC146C194D30F7000D5174 /* MyTextureAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AC14A6194D30F7000D5174 /* Build configuration list for PBXNativeTarget "MyTextureAtlas" */;
+			buildPhases = (
+				19AC1469194D30F7000D5174 /* Sources */,
+				19AC146A194D30F7000D5174 /* Frameworks */,
+				19AC146B194D30F7000D5174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTextureAtlas;
+			productName = MyTextureAtlas;
+			productReference = 19AC146D194D30F7000D5174 /* MyTextureAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19AC1494194D30F7000D5174 /* MyTextureAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AC14A9194D30F7000D5174 /* Build configuration list for PBXNativeTarget "MyTextureAtlasTests" */;
+			buildPhases = (
+				19AC1491194D30F7000D5174 /* Sources */,
+				19AC1492194D30F7000D5174 /* Frameworks */,
+				19AC1493194D30F7000D5174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19AC149B194D30F7000D5174 /* PBXTargetDependency */,
+			);
+			name = MyTextureAtlasTests;
+			productName = MyTextureAtlasTests;
+			productReference = 19AC1495194D30F7000D5174 /* MyTextureAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19AC1465194D30F7000D5174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Benny Khoo";
+				TargetAttributes = {
+					19AC1494194D30F7000D5174 = {
+						TestTargetID = 19AC146C194D30F7000D5174;
+					};
+				};
+			};
+			buildConfigurationList = 19AC1468194D30F7000D5174 /* Build configuration list for PBXProject "MyTextureAtlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19AC1464194D30F7000D5174;
+			productRefGroup = 19AC146E194D30F7000D5174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AC146C194D30F7000D5174 /* MyTextureAtlas */,
+				19AC1494194D30F7000D5174 /* MyTextureAtlasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AC146B194D30F7000D5174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC147D194D30F7000D5174 /* InfoPlist.strings in Resources */,
+				19AC1490194D30F7000D5174 /* Images.xcassets in Resources */,
+				19AC148E194D30F7000D5174 /* Spaceship.png in Resources */,
+				19AC1486194D30F7000D5174 /* Main.storyboard in Resources */,
+				19AA9022194E9271000A2C5C /* sprites.atlasc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AC1493194D30F7000D5174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC14A1194D30F7000D5174 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AC1469194D30F7000D5174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC148C194D30F7000D5174 /* MyScene.m in Sources */,
+				19AC1489194D30F7000D5174 /* ViewController.m in Sources */,
+				19AC1483194D30F7000D5174 /* AppDelegate.m in Sources */,
+				19AC14B4194D376B000D5174 /* MyTextureAtlas.m in Sources */,
+				19AC147F194D30F7000D5174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AC1491194D30F7000D5174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC14A3194D30F7000D5174 /* MyTextureAtlasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19AC149B194D30F7000D5174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19AC146C194D30F7000D5174 /* MyTextureAtlas */;
+			targetProxy = 19AC149A194D30F7000D5174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19AC147B194D30F7000D5174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AC147C194D30F7000D5174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19AC1484194D30F7000D5174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AC1485194D30F7000D5174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19AC149F194D30F7000D5174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AC14A0194D30F7000D5174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19AC14A4194D30F7000D5174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		19AC14A5194D30F7000D5174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19AC14A7194D30F7000D5174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTextureAtlas/MyTextureAtlas-Prefix.pch";
+				INFOPLIST_FILE = "MyTextureAtlas/MyTextureAtlas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19AC14A8194D30F7000D5174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTextureAtlas/MyTextureAtlas-Prefix.pch";
+				INFOPLIST_FILE = "MyTextureAtlas/MyTextureAtlas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19AC14AA194D30F7000D5174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTextureAtlas.app/MyTextureAtlas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTextureAtlas/MyTextureAtlas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyTextureAtlasTests/MyTextureAtlasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19AC14AB194D30F7000D5174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTextureAtlas.app/MyTextureAtlas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTextureAtlas/MyTextureAtlas-Prefix.pch";
+				INFOPLIST_FILE = "MyTextureAtlasTests/MyTextureAtlasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19AC1468194D30F7000D5174 /* Build configuration list for PBXProject "MyTextureAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AC14A4194D30F7000D5174 /* Debug */,
+				19AC14A5194D30F7000D5174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AC14A6194D30F7000D5174 /* Build configuration list for PBXNativeTarget "MyTextureAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AC14A7194D30F7000D5174 /* Debug */,
+				19AC14A8194D30F7000D5174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AC14A9194D30F7000D5174 /* Build configuration list for PBXNativeTarget "MyTextureAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AC14AA194D30F7000D5174 /* Debug */,
+				19AC14AB194D30F7000D5174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19AC1465194D30F7000D5174 /* Project object */;
+}
